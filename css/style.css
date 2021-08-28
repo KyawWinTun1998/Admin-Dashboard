@@ -6,6 +6,17 @@
 :root{
     --primary-soft: #f3f3f3;
 }
+
+a:hover{
+    text-decoration: none;
+}
+
+.bg{
+    padding: 4px;
+    background: #dae0e5;
+    border-radius: 5px;
+}
+
 .nav-brand{
     position: sticky;
     top: 0;

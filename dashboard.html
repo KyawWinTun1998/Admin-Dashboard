@@ -14,7 +14,7 @@
 
     <section class="main container-fluid">
         <div class="row">
-            <!--        sidebar start-->
+            <!--sidebar start-->
             <div class="col-12 col-lg-3 col-xl-2 vh-100 sidebar">
                 <div class="d-flex justify-content-between align-items-center py-2 mt-3 mb-3 nav-brand">
                     <div class="d-flex align-items-center">
@@ -44,6 +44,60 @@
                             <span>Manage Products</span>
                         </li>
                         <li class="menu-item">
+                            <a href="item_add.html" class="menu-item-link">
+                                <span>
+                                    <i class="feather-plus-circle"></i>
+                                    Add Items
+                                </span>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="item_list.html" class="menu-item-link">
+                                <span>
+                                    <i class="feather-list"></i>
+                                    Items List
+                                </span>
+                                <span class="badge badge-pill bg-white shadow-sm text-success p-1">12</span>
+                            </a>
+                        </li>
+                        <hr>
+                        <li class="menu-item">
+                            <a href="subcategory_add.html" class="menu-item-link">
+                                <span>
+                                    <i class="feather-plus-circle"></i>
+                                    Add Subcategory
+                                </span>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="subcategory_list.html" class="menu-item-link">
+                                <span>
+                                    <i class="feather-list"></i>
+                                    Subcategory List
+                                </span>
+                                <span class="badge badge-pill bg-white shadow-sm text-success p-1">12</span>
+                            </a>
+                        </li>
+                        <hr>
+                        <li class="menu-item">
+                            <a href="category_add.html" class="menu-item-link">
+                                <span>
+                                    <i class="feather-plus-circle"></i>
+                                    Add Category
+                                </span>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="category_list.html" class="menu-item-link">
+                                <span>
+                                    <i class="feather-list"></i>
+                                    Category List
+                                </span>
+                                <span class="badge badge-pill bg-white shadow-sm text-success p-1">8</span>
+                            </a>
+                        </li>
+                        <hr>
+                        <li class="menu-item">
                             <a href="brand_add.html" class="menu-item-link">
                                 <span>
                                     <i class="feather-plus-circle"></i>
@@ -57,35 +111,29 @@
                                     <i class="feather-list"></i>
                                     Brand List
                                 </span>
-                                <span class="badge badge-pill bg-white shadow-sm text-success p-1">12</span>
+                                <span class="badge badge-pill bg-white shadow-sm text-success p-1">8</span>
                             </a>
                         </li>
-                        <hr>
-                        <li class="menu-item">
-                            <a href="brand_add.html" class="menu-item-link">
-                                <span>
-                                    <i class="feather-plus-circle"></i>
-                                    Add Category
-                                </span>
-                            </a>
+                        <li class="menu-spacer"></li>
+
+                        <li class="menu-title">
+                            <span>Manage Users</span>
                         </li>
                         <li class="menu-item">
-                            <a href="brand_list.html" class="menu-item-link">
+                            <a href="user_list.html" class="menu-item-link">
                                 <span>
                                     <i class="feather-list"></i>
-                                    Category List
+                                    User List
                                 </span>
-                                <span class="badge badge-pill bg-white shadow-sm text-success p-1">12</span>
+                                <span class="badge badge-pill bg-white shadow-sm text-success p-1">8</span>
                             </a>
                         </li>
-                        <hr>
-                        
                     </ul>
     
                 </div>
     
             </div>
-            <!--        sidebar end-->
+            <!--sidebar end-->
             <div class="col-12 col-lg-9 col-xl-10 vh-100 py-3 content">
                 <div class="row header mb-4">
                     <div class="col-12">
@@ -288,7 +336,7 @@
     
                             <div class="">
                                 <div class="d-flex justify-content-between align-items-center p-3">
-                                    <p class="mb-0">Subscriber List</p>
+                                    <p class="mb-0">Order List</p>
                                     <div class="">
                                         <i class="feather-more-vertical h4 mb-0 text-success"></i>
                                     </div>
@@ -296,9 +344,9 @@
                                 <table class="table table-hover sub-list mb-0">
                                     <thead>
                                     <tr>
-                                        <th>Name</th>
-                                        <th>Company</th>
-                                        <th>Start Date</th>
+                                        <th>Customer</th>
+                                        <th>Products</th>
+                                        <th>Order Date</th>
                                         <th>Status</th>
                                         <th>Amount</th>
                                         <th>Action</th>
@@ -306,59 +354,43 @@
                                     </thead>
                                     <tbody>
                                     <tr>
-                                        <td>Michael Austin</td>
-                                        <td>ABC Fintech LTD.</td>
-                                        <td>Jan 1,2019</td>
+                                        <td>Kyaw Kyaw</td>
+                                        <td>Electronic Devices</td>
+                                        <td>1 Aug 2021</td>
                                         <td><span class="badge badge-pill badge-danger">Close</span></td>
                                         <td>$ 1000.00</td>
                                         <td class="center-align"><a href="#"><i class="feather-trash-2 text-danger"></i></a></td>
                                     </tr>
                                     <tr>
-                                        <td>Aldin Rakić</td>
-                                        <td>ACME Pvt LTD.</td>
-                                        <td>Jan 10,2019</td>
+                                        <td>Mya Mya</td>
+                                        <td>Cosmetic</td>
+                                        <td>10 Jun 2021</td>
                                         <td><span class="badge badge-pill badge-success">Open</span></td>
                                         <td>$ 3000.00</td>
                                         <td class="center-align"><a href="#"><i class="feather-trash-2 text-danger"></i></a></td>
                                     </tr>
                                     <tr>
-                                        <td>İris Yılmaz</td>
-                                        <td>Collboy Tech LTD.</td>
-                                        <td>Jan 12,2019</td>
+                                        <td>Min Min</td>
+                                        <td>Books</td>
+                                        <td>20 Feb 2021</td>
                                         <td><span class="badge badge-pill badge-success">Open</span></td>
                                         <td>$ 2000.00</td>
                                         <td class="center-align"><a href="#"><i class="feather-trash-2 text-danger"></i></a></td>
                                     </tr>
                                     <tr>
-                                        <td>Lidia Livescu</td>
-                                        <td>My Fintech LTD.</td>
-                                        <td>Jan 14,2019</td>
-                                        <td><span class="badge badge-pill badge-danger">Close</span></td>
-                                        <td>$ 1100.00</td>
-                                        <td class="center-align"><a href="#"><i class="feather-trash-2 text-danger"></i></a></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Michael Austin</td>
-                                        <td>ABC Fintech LTD.</td>
-                                        <td>Jan 1,2019</td>
+                                        <td>Kyaw Kyaw</td>
+                                        <td>Electronic Devices</td>
+                                        <td>1 Aug 2021</td>
                                         <td><span class="badge badge-pill badge-danger">Close</span></td>
                                         <td>$ 1000.00</td>
                                         <td class="center-align"><a href="#"><i class="feather-trash-2 text-danger"></i></a></td>
                                     </tr>
                                     <tr>
-                                        <td>Aldin Rakić</td>
-                                        <td>ACME Pvt LTD.</td>
-                                        <td>Jan 10,2019</td>
+                                        <td>Mya Mya</td>
+                                        <td>Cosmetic</td>
+                                        <td>10 Jun 2021</td>
                                         <td><span class="badge badge-pill badge-success">Open</span></td>
                                         <td>$ 3000.00</td>
-                                        <td class="center-align"><a href="#"><i class="feather-trash-2 text-danger"></i></a></td>
-                                    </tr>
-                                    <tr>
-                                        <td>İris Yılmaz</td>
-                                        <td>Collboy Tech LTD.</td>
-                                        <td>Jan 12,2019</td>
-                                        <td><span class="badge badge-pill badge-success">Open</span></td>
-                                        <td>$ 2000.00</td>
                                         <td class="center-align"><a href="#"><i class="feather-trash-2 text-danger"></i></a></td>
                                     </tr>
                                     </tbody>
